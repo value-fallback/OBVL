@@ -1,0 +1,32 @@
+{
+  "name": "obvl",
+  "version": "1.0.0",
+  "description": "Fallback when a value is not Object.",
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/value-fallback/OBVL"
+  },
+  "keywords": [
+    "object",
+    "fallback",
+    "value-fallback"
+  ],
+  "author": "Saran Tanpituckpong <sarunta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/value-fallback/OBVL/issues"
+  },
+  "homepage": "https://github.com/value-fallback/OBVL",
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-gluons": "^2.0.1",
+    "mocha": "*"
+  },
+  "dependencies": {
+    "is-plain-obj": "^1.1.0"
+  }
+}
