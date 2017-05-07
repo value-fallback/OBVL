@@ -27,5 +27,22 @@ yarn add obvl
 
 ```javascript
 const obvl = require('obvl');
-...
+
+// When a value is not Object, it will return fallback value.
+let a = obvl(null, 0); // a = 0
+let b = obvl([1, 2, 3], 'x'); // b = 'x'
+
+// When a value is Object, it will return that value.
+let c = obvl({ a: 1, b: 2, c: 3 }, 1); // c = { a: 1, b: 2, c: 3 }
+let d = obvl(new Object(), [1, 2, 3]); // d = Object {  }
 ```
+
+## API
+
+### obvl(value, fallbackValue)
+
+#### value
+A main value.
+
+#### fallbackValue
+A fallback value.
