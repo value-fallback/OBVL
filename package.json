@@ -1,6 +1,6 @@
 {
   "name": "obvl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fallback when a value is not Object.",
   "main": "./index.js",
   "scripts": {
